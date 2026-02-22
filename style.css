@@ -10,7 +10,7 @@ body {
     background: #1F2937;
     font-size: 18px;
     color: #e5e7eb;
-    padding: 16px;
+    padding: 16px 0px;
     display: flex;
     flex-direction: column;  
 }
@@ -84,17 +84,15 @@ a {
   color: white;
 }
 
-.body {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .body1 {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    padding: 75px 0px;
+    justify-content: center;
+    align-items: center;
     gap: 75px;
+    min-height: 300px;
 }
 
 .info-header {
@@ -124,6 +122,20 @@ a {
     border: 5px solid #3882f6;
     border-radius: 8px;
     background: white;
+}
+
+.body2 {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 75px 225px;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    min-height: 300px;
 }
 
 .footer {
